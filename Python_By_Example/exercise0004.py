@@ -62,3 +62,27 @@ elif age == 16:
     print("You can buy a lottery ticket.")
 else:
     print("You can go Trick-or-Treating.")
+
+# Challenge 018
+
+numbeer = int(input("The Number: "))
+
+if numbeer < 10:
+    print("Too low")
+elif 10 <= numbeer <= 20:
+    print("Correct!")
+else:
+    print("Too High!")
+
+# Challenge 019
+
+thank_you = int(input("Type 1,2,3 or else: "))
+
+if thank_you == 1:
+    print("Thank you.")
+elif thank_you == 2:
+    print("Well Done.")
+elif thank_you == 3:
+    print("Correct!")
+else:
+    print("Error Message!")
