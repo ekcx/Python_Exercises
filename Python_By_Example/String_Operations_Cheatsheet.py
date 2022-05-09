@@ -19,5 +19,9 @@ print(word)
 
 firstName = input("First Name: ")
 surName = input("Sur Name: ")
-name = firstName + surName
+name = firstName + " " + surName
 print(name)
+
+text = " This is some text. "
+print(text.strip(" ")) # The blanks will be removed the start and the end.
+
