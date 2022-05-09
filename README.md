@@ -7,7 +7,8 @@ Practice makes perfect as we know. I am improving myself by answering code exerc
 During this process, I am making research deeply and also I am reading lots of document about Python to answer that questions.
 Collecting knowledge from different sources is a crucial skill in the software industry. By doing this, I am tracing a serious path and taking considerable distance.
 
-Thanks. 
-
 Book Link: https://www.amazon.com/Python-Example-Learning-Program-Challenges-ebook/dp/B07S638NXD
+
 My e-mail to contact with me: ekcx92@gmail.com
+
+Thanks.
