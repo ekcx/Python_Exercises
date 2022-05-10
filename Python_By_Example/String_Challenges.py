@@ -49,3 +49,12 @@ else:
     print(get_name.lower())
 
 # Challenge 026
+
+pig_word = input("Type a Pig Latin Name:")
+
+if pig_word[0] == "a" or pig_word[0] == "e" or pig_word[0] == "i" or pig_word[0] == "o" or pig_word[0] == "u":
+    pig_word = pig_word + "way"
+    print(pig_word)
+else:
+    pig_word = pig_word + "ay"
+    print(pig_word)
