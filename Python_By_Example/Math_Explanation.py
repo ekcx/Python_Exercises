@@ -43,3 +43,24 @@ total_volume = math.pi * pow(get_radius, 2) * depth
 print(total_volume)
 
 # Challenge 033
+# get the numbers and divide each other, get the results
+
+get_number1 = int(input("Type a number: "))
+get_number2 = int(input("Type a number: "))
+divide = math.floor(get_number1 / get_number2)
+modulo = get_number1 % get_number2
+print("Dividing", get_number1, "with", get_number2, "is ", divide, "and", modulo)
+
+# Challenge 034
+
+number = int(input("\n1)Square\n2)Triangle\nEnter a Number: "))
+
+if number == 1:
+    lenght_sides = float(input("Type a lenght of the sides: "))
+    print("The area of the Square is:", lenght_sides**2)
+elif number == 2:
+    base = float(input("Type base of the triangle: "))
+    height = float(input("Type height of tyhe triangle"))
+    print("The area of the Triange is:", (base*height)/2)
+else:
+    print("This is a suitable error message!")
