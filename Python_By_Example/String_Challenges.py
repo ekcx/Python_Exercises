@@ -31,5 +31,21 @@ number2 = int(input("Ending: "))
 print(nursery_ryhme[number:number2]) # included number - not included number2
 
 # Challenge 024
+# get the name and capitaliza every letters of it.
 
+get_name = input("Type your name: ")
+get_name = get_name.upper()
+print(get_name)
 
+# Challenge 025
+
+get_name = input("First Name: ")
+
+if len(get_name) < 5:
+    get_surname = input("Enter your surname: ")
+    name = get_name + get_surname
+    print(get_name.upper() + get_surname.upper())
+else:
+    print(get_name.lower())
+
+# Challenge 026
