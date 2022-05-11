@@ -47,7 +47,7 @@ print(total_volume)
 
 get_number1 = int(input("Type a number: "))
 get_number2 = int(input("Type a number: "))
-divide = math.floor(get_number1 / get_number2)
+divide = math.floor(get_number1 / get_number2)   # or we can use //
 modulo = get_number1 % get_number2
 print("Dividing", get_number1, "with", get_number2, "is ", divide, "and", modulo)
 
