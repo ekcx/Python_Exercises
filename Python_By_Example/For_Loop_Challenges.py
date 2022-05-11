@@ -79,3 +79,10 @@ else:
 # Challenge 044
 
 invited_number = int(input("How many people invented to the party? "))
+
+if invited_number < 10:
+    for i in range(0, invited_number):
+        get_name = input("Type an invited name: ")
+        print(get_name, "has been invited to the party.")
+else:
+    print("Too many people!")
