@@ -9,4 +9,16 @@ for i in range(0, 10):
 print()
 
 for j in range(5, 10):  # start from 5 and count to 10 at total 5 numbers.
-    print(j)
+    print(j*j)
+
+# Factorial Calculation.
+get_factorial = int(input("Type a factorial number: "))
+number = 1
+
+for i in range(2, get_factorial+1):
+    number *= i
+
+print(number)
+
+
+
