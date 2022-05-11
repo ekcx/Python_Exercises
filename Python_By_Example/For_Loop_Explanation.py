@@ -32,4 +32,9 @@ for i in range(1, 10, 2):  # 2 by 2 in odd numbers
 for i in range(0, 100, 10):  # 10 by 10 in 100
     print(i)
 
+word = "try"
+
+for i in word:  # evert letter will be new line.
+    print(i)
+
 
