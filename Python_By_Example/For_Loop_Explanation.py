@@ -19,6 +19,17 @@ for i in range(2, get_factorial+1):
     number *= i
 
 print(number)
+print()
 
+for i in range(0, 10, 2):  # 2 by 2 in even numbers
+    print(i)
+
+print()
+
+for i in range(1, 10, 2):  # 2 by 2 in odd numbers
+    print(i)
+
+for i in range(0, 100, 10):  # 10 by 10 in 100
+    print(i)
 
 
