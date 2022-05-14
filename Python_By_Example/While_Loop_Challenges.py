@@ -61,6 +61,8 @@ while True:
         print(name_number, "people has been invited.")
         break
 
+# Challenge 049
+
 copnum = 50
 guess = 0
 count = 0
@@ -76,3 +78,12 @@ while copnum != guess:
         print("Too Low")
 
 
+while True:
+    number_int = int(input("Type in a number: "))
+    if number_int <= 10:
+        print("Too Low")
+    elif number_int >= 20:
+        print("Too High")
+    else:
+        print("Thank You!")
+        break
