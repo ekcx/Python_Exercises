@@ -97,8 +97,10 @@ while num != 0:
     fall = int(input(":"))
 
     if (num - 1) == fall:
-        print("There will be", num, "green bottles hanging on the wall")
-    elif (num - 1 ) != 0:
+        num = num - 1
+        print("There will be", num, "green bottles hanging on the wall.")
+    elif (num - 1) != 0:
         print("No, try again!")
     else:
+        print("There are no more green bottles hanging on the wall.")
 
