@@ -87,3 +87,18 @@ while True:
     else:
         print("Thank You!")
         break
+
+num = int(input("Enter a bottles number: "))
+
+while num != 0:
+    print("There are", num, "green bottles hanging on the wall,", num,
+          "green bottles hanging on the wall,and if 1 green bottle should accidentally fall")
+    print("How many green bottles will be hanging on the wall?")
+    fall = int(input(":"))
+
+    if (num - 1) == fall:
+        print("There will be", num, "green bottles hanging on the wall")
+    elif (num - 1 ) != 0:
+        print("No, try again!")
+    else:
+
