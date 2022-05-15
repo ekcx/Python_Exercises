@@ -77,7 +77,7 @@ while copnum != guess:
     else:
         print("Too Low")
 
-
+# Challenge 050
 while True:
     number_int = int(input("Type in a number: "))
     if number_int <= 10:
@@ -88,6 +88,7 @@ while True:
         print("Thank You!")
         break
 
+# Challenge 051
 num = int(input("Enter a bottles number: "))
 
 while num != 0:
@@ -103,4 +104,3 @@ while num != 0:
         print("No, try again!")
     else:
         print("There are no more green bottles hanging on the wall.")
-
