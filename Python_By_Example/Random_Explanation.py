@@ -26,26 +26,3 @@ print(num)
 colour = random.choice(["red", "black", "green", 5, 19, "purple"])
 # Remember! the string data type needs to include speech marks but numeric data does not.
 print(colour)
-
-# Challenge 052
-print(random.randint(1, 100))
-
-# Challenge 053
-fruit = random.choice(["apple", "pineapple", "strawberry", "cherry", "banana"])
-print(fruit)
-
-# Challenge 054
-
-head_tail = random.choice(["head", "tail"])
-guess = input("Guess head or tail: ")
-
-if guess == head_tail:
-    print("You Win!")
-else:
-    print("Bad Luck!")
-
-print("The computer selected as", head_tail)
-
-number = random.randint(1, 5)
-count = 0
-
