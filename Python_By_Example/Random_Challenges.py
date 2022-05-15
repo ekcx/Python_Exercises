@@ -56,3 +56,21 @@ for i in range(1, 6):
         summation = summation
 print("Your grade is", summation, "out of 5")
 
+# Challenge 059
+
+colours = ["red", "black", "green", "blue", "purple"]
+guess = colours[random.randint(0, 5)]
+for i in range(0, 5):
+    print(colours[i])
+print("These are the colours.Pick one!")
+colour_guess = ""
+
+while colour_guess != guess:
+
+    colour_guess = input("Enter colour:")
+
+    if guess == colour_guess:
+        print("Well done")
+    else:
+        print("I bet you are", guess, "with envy")
+
