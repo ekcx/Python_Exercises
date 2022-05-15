@@ -21,7 +21,7 @@ print("The computer selected as", head_tail)
 number = random.randint(1, 5)
 count = 0
 
-# Challenge 056
+# Challenge 056 - 057
 
 number_int = random.randint(1, 10)
 guess = 0
@@ -40,5 +40,19 @@ while True:
         print("You've tried", count, "times.")
         break
 
-# Challenge 057
+# Challenge 058
+
+summation = 0
+
+for i in range(1, 6):
+    number = random.randint(1, 5)
+    number1 = random.randint(1, 5)
+
+    print("Answer", number, "+", number1, "= :")
+    answer = int(input(""))
+    if answer == (number + number1):
+        summation += 1
+    else:
+        summation = summation
+print("Your grade is", summation, "out of 5")
 
