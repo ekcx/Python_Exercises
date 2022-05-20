@@ -60,7 +60,15 @@ for i in x:
 
 num = int(input("Enter number: "))
 if num in x:
-    print(num, "is in the last: ")
+    print(num, "is in the list: ")
 else:
     print("Not in the list")
 
+# insert in the list, and the list will shift to the right.
+x.insert(2, 420)  # 2'th index and 420 number
+print(x)
+
+x.remove(892)  # 892 will be removed from the list.
+print(x)
+x.append(993)  # 993 will be appended to the list.
+print(x)
