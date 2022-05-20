@@ -9,7 +9,7 @@
 # index of dictionary is not changed if other rows of data are added or deleted
 # -while program is running unlike LIST.
 
-# Tuple Declaration:
+# Tuple Declaration - The content of Tuples cannot be altered while the program is running.
 fruit_tuple = ("Apple", "Banana", "strawberry", "Orange")
 print(fruit_tuple.index("Apple"))
 print(fruit_tuple.index("Banana"))
@@ -18,4 +18,23 @@ print(fruit_tuple[0])
 print(fruit_tuple[1])
 print(fruit_tuple[2])
 
-# List Declaration:
+# List Declaration - The square brackets define this group of data as a list and therefore;
+# The contents can be altered while the program is running
+names_list = ["John", "Tim", "Sam"]
+print("\n")
+print(names_list[0])
+print(names_list[1])
+print(names_list[2])
+print("\n")
+
+# Deleting from the list will shift the old one to the deleted one.
+del names_list[0]  # Deleting John and the list left 2 items
+del names_list[0]  # Deleting Tim and the list left 1 item.
+print(names_list[0])
+# Appending to the list:
+names_list.append(input("Add a name:"))
+print(names_list[1])
+names_list.append(input("Add a name:"))
+print(names_list[2])
+# Sorting alphabetical order:
+names_list.sort()
