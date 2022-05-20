@@ -31,10 +31,36 @@ print("\n")
 del names_list[0]  # Deleting John and the list left 2 items
 del names_list[0]  # Deleting Tim and the list left 1 item.
 print(names_list[0])
+
 # Appending to the list:
 names_list.append(input("Add a name:"))
 print(names_list[1])
 names_list.append(input("Add a name:"))
 print(names_list[2])
+
 # Sorting alphabetical order:
+# It works if the list has to include only the same data type:
 names_list.sort()
+
+# Declaring dictionary
+colours = {1: "red", 2: "blue", 3: "green"}
+# Changing 2th index to yellow
+colours[2] = "yellow"
+print(colours[2])
+
+# List that contains numbers
+x = [154, 634, 892, 345, 341, 43]
+
+print(len(x))
+# x index 1,2,3
+print(x[1:4])
+
+for i in x:
+    print(i)
+
+num = int(input("Enter number: "))
+if num in x:
+    print(num, "is in the last: ")
+else:
+    print("Not in the list")
+
