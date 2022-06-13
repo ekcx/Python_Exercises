@@ -3,5 +3,10 @@
 
 country_tuple = ("The United States", "Germany", "Belgium", "The Netherlands", "Spain")
 print(country_tuple[0:5])
-country = (input("Please enter one of the countries:"))
-print()
+
+print("This is the times table: ")
+for i in range(1,10):
+    for j in range(1,10):
+        print(f"{i} * {j} = {i*j}")
+    print("\n")
+
