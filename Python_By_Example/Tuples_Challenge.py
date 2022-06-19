@@ -88,11 +88,18 @@ print("The index of your preferred country is: ")
 print(country_tuple.index(position))
 
 
+# Challenge 070
+give_number = int(input("Please enter a number that's the country position: "))
+print(country_tuple[give_number])
 
+# Challenge 071
 
-
-
-
+list_sports = ["Swimming", "Boxing"]
+# list2_sports = ["Basketball", "Baseball", "Football", "Ice Hookey"]
+sport = input("Type your fav. sport: ")
+list_sports.append(sport)
+list_sports.sort()
+print(sorted(list_sports))
 
 
 
