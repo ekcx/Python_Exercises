@@ -45,9 +45,47 @@ print(len(x))
 # This will display data in positions 1, 2, and 3.
 print(x[1:4])
 
+# This for loop display the numbers in x.
+for i in x:
+    print(i)
 
+num = int(input("Enter number: "))
 
+# if num is in x, it dipslays the index.
+if num in x:
+    print(num, "is in the list")
+    print(x.index(num))
+else:
+    print("not in the list.")
 
+# Inserting the number 420, to the 2. position.
+x.insert(2, 420)
+# This will change the index numbers of the items in the list.
+
+# Removing the item from the list. This is useful if you do not know the index of that item.
+# If the item is more than one in the list, the first one will be deleted.
+x.remove(0)
+print(x[9])
+# will display as 11 instead of 0. because of deleting from the list by using x.remove() method.
+
+# Appending to the end of list:
+x.append(5)
+print(x[13])
+
+# Challenge 069
+
+# Create a tuple which has 5 different countries.
+
+country_tuple = ("The US", "The Great Britain", "Germany", "Poland", "The Netherlands")
+
+print("\n")
+
+for i in country_tuple:
+    print(country_tuple[country_tuple.index(i)])
+
+position = input("country name you prefer: ")
+print("The index of your preferred country is: ")
+print(country_tuple.index(position))
 
 
 
