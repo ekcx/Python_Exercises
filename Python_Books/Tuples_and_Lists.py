@@ -32,3 +32,4 @@ else:
 print(my_friends_list)
 
 # Challenge 078 and 079 are the same with the previous examples. So, I do not need to implement again.
+
