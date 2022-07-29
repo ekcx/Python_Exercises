@@ -31,5 +31,32 @@ else:
 
 print(my_friends_list)
 
-# Challenge 078 and 079 are the same with the previous examples. So, I do not need to implement again.
+# Challenge 078
+
+tv_programme = ["First", "Second", "Three", "Four"]
+print(tv_programme[0])
+print(tv_programme[1])
+print(tv_programme[2])
+print(tv_programme[3])
+
+new_program = input("Type in a fifth program name: ")
+tv_programme.append(new_program)
+print(tv_programme)
+
+# Challenge 079
+
+nums = []
+
+for i in range(0, 3):
+    number = int(input("Type a number: "))
+    nums.append(number)
+
+print("Are you sure to add the last number to the list ? ")
+yes_or_no = input("Type yes/no: ")
+if yes_or_no == "no":
+    nums.remove(2)
+else:
+    pass
+print(nums)
+
 
