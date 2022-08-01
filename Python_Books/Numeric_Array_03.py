@@ -1,5 +1,6 @@
 from array import *
 from random import *
+import math
 
 # Challenge 094 #
 
@@ -17,4 +18,11 @@ while helper:
         choice = int(input("Type the number that's in the list: "))
 
 # Challenge 095 #
+
+random_array = array('f', [])
+
+for i in range(0, 5):
+    number = random()
+    random_array.append(number * 100 + 10)
+    print(random_array[i])
 
