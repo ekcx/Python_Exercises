@@ -1,4 +1,6 @@
+import random
 from array import *
+from random import Random
 
 nums = array('i', [45, 324, 654, 45, 264])
 print(nums)
@@ -41,3 +43,22 @@ nums.remove(GetRid)
 print(nums)
 
 print(nums.count(45))
+
+
+# Challenge 088 #
+
+list = array('i', [])
+
+for i in range(0, 5):
+    list_number = int(input("Type in a number: "))
+    list.append(list_number)
+list = sorted(list)
+print(list)
+
+# Challenge 089 #
+
+random_list = array('i', [])
+for i in range(0, 5):
+    random_list.append(int(random.randint(0, 100)))
+    print(random_list[i])
+
