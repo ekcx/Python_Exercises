@@ -19,3 +19,12 @@ while True:
         for i in range(0, 5):
             print(my_list[i])
         break
+
+# Challenge 091 #
+
+array_one = [1, 2, 1, 2, 4, 5, 6, 6, 6]
+print(array_one)
+
+count_one = int(input("Type a number to count how many seems in the list: "))
+print(array_one.count(count_one))
+
