@@ -52,3 +52,14 @@ for i in range(0, len(first_array)):
 '''for i in range(0, 20):
     print("New Screen!")'''
 
+# Challenge 093
+ask_array = array('i', [])
+for i in range(0, 5):
+    ask_array.append(int(input("Type in five number respectively: ")))
+
+ask_array = sorted(ask_array)
+print(ask_array)
+select_number = int(input("Type which number to remove do you want?"))
+ask_array.remove(select_number)
+print(ask_array)
+
