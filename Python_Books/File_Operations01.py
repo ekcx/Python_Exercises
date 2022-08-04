@@ -1,12 +1,8 @@
-file = open("Numbers.txt", "w")
-file.write("1, 2, 3, 4, 5")
-file.close()
+# Challenge 105
 
-my_file = open("Names.txt", "w")
+# Write a new file called Numbers.txt and add Five Numbers to this document.
+file_numbers = open("Numbers.txt", "w")
+file_numbers.write("1, 2, 3, 4, 5\n")
+file_numbers.close()
 
-file.write("Name1\n")
-file.write("Name2\n")
-file.write("Name3\n")
-file.write("Name4\n")
-file.write("Name5\n")
 
