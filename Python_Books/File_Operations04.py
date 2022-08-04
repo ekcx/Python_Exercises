@@ -20,3 +20,6 @@ elif choose_value == 3:
     new_file = open("Subject.txt", "r")
     print(new_file.read())
     new_file.close()
+else:
+    print("Suitable Error Message :)")
+
