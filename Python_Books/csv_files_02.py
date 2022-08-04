@@ -24,4 +24,21 @@ book_file.write("\n" + book_name)
 book_file = open("Books.csv", "r")
 print(book_file.read())
 
-# challenge 112
+# challenge 113
+
+record_number = int(input("Type how many records do you want ? "))
+
+for i in range(0, record_number):
+    book_file = open("Books.csv", "a")
+    new_record = input("Type your book name, author and release year: ")
+    book_file.write("\n")
+    book_file.write(new_record)
+
+book_file = open("Books.csv", "r")
+author_name = input("Type the author name that will be searched: ")
+
+for row in book_file:
+    if author_name in str(row):
+        print(row)
+    else:
+        print("There are no author: ")
