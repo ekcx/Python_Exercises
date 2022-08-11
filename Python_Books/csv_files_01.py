@@ -14,7 +14,7 @@ file.write(str(new_record))
 file.close()
 
 # For csv files:
-# Once we open the csv file by using "w" attribute, to keep the data inside, we can use "a" attribute
+# Once we open the csv file by using "w" attribute, to keep the data inside, we must use "a" attribute
 # "a" -> append
 # "w" -> write
 # "r" -> read
