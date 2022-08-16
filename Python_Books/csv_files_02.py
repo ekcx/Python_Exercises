@@ -10,9 +10,6 @@ book_file.write("A Brief History of Time, Stephen Hawking, 1988\n")
 book_file.write("The Great Gatsby, F. Scott Fitzgerald, 1992\n")
 book_file.write("The Man Who Mistook His Wife for a Hat, Oliver Scaks, 1985\n")
 book_file.write("Pride and Prejudice, Jane Austen, 1813")
-
-book_file = open("Books.csv", "r")
-print(book_file.read())
 book_file.close()
 
 # Challenge 112
@@ -22,7 +19,10 @@ book_name = input("Type a book name, Author and Year: ")
 book_file.write("\n" + book_name)
 
 book_file = open("Books.csv", "r")
-print(book_file.read())
+
+for row in book_file:
+    print(book_file.read())
+
 
 # challenge 113
 
@@ -42,3 +42,4 @@ for row in book_file:
         print(row)
     else:
         print("There are no author: ")
+
