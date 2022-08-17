@@ -1,4 +1,6 @@
 import csv
+import random
+
 # Challenge 116
 
 book_file = open("Books.csv", "w")
@@ -8,7 +10,6 @@ book_file.write("The Great Gatsby, F. Scott Fitzgerald, 1992\n")
 book_file.write("The Man Who Mistook His Wife for a Hat, Oliver Scaks, 1985\n")
 book_file.write("Pride and Prejudice, Jane Austen, 1813")
 book_file.close()
-
 
 list_of_book = list(open("Books.csv", "r"))
 first_list = []     # Declaration of the empty list.
@@ -38,13 +39,18 @@ print(file.read())
 # Challenge 117
 
 quiz_file = open("Quiz_Record.csv", "a")
-quiz_list = ['Where are you from?', 'How old are you?']
+quiz_list = ['Where are you from?', 'How old are you?', 'What is your name?', 'What is your occupation?', 'How is your father?', 'What is your graduate GPA?',
+             'Do you prefer tea/coffee?']
 
-user_from = input(quiz_list[0])
-user_age = int(input(quiz_list[1]))
+quiz_one = quiz_list[random.randint(0, 6)]
+quiz_file.write("\n" + quiz_one + "\n")
+user_from = input(quiz_one)
+quiz_file.write(user_from + "\n")
 
-quiz_file.write("\n" + user_from + "\n")
-quiz_file.write(str(user_age) + "\n")
+quiz_two = quiz_list[random.randint(0, 6)]
+quiz_file.write(quiz_two + "\n")
+user_age = input(quiz_two)
+quiz_file.write(user_age + "\n")
 
 quiz_file = open("Quiz_Record.csv", "r")
 print(quiz_file.read())
