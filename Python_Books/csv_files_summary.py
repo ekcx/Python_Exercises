@@ -26,5 +26,3 @@ file.close()
 
 # the sense of the csv write/read/append process; first define the operation, second do the operation, then close the
 # files and operation.
-
-
