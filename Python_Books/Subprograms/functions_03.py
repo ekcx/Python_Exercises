@@ -34,5 +34,4 @@ def main():
                 second = guess_number()
 
 
-
 main()
