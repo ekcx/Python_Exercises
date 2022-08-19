@@ -24,7 +24,8 @@ def file_operations():
         elif choose == 3:
             n = False
         else:
-            print("There is an error!")
+            file_operations()
+            n = False
 
 
 file_operations()
