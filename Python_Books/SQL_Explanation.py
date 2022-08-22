@@ -31,3 +31,5 @@ cursor.execute("SELECT * FROM employees WHERE salary>20000")
 # Selects all the data from the employees table where the salary is over 20000
 
 cursor.execute("""SELECT employees.id, employees.name, dept.manager FROM employees, dept WHERE employees.dept = dept.dept AND employees.salary > 20000""")
+
+# I Think, SQL cannot learn by writing top-down tracing the comment like this. So, I don't go deep about it at all.
